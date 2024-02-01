@@ -1,0 +1,26 @@
+    1.  mkdir finaltask
+    cd finaltask/
+    cat > "Домашние животные.txt"
+    cat > "Вьючные животные.txt"
+    cat "Домашние животные.txt" "Вьючные животные.txt" > "Животные.txt"
+    mv "Животные.txt" "Друзья человека.txt"
+    cat "Друзья человека.txt"
+
+    2. mkdir "New dir"
+    mv "Друзья человека.txt" "New dir"/
+    cd "New dir"
+    ls
+
+    3. wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+    sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+    sudo apt install mysql-server
+    systemctl status mysql
+    sudo mysql -p
+
+   4. wget https://downloads.vivaldi.com/stable/vivaldi-stable_amd64.deb
+   sudo dpkg -i vivaldi-stable_amd64.deb
+   sudo dpkg -r vivaldi-stable
+   history
+
+
+
